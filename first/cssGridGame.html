@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider Grids</title>
+    <link rel="stylesheet" href="CGG.css">
+</head>
+<body>
+    <section id="sidebar">
+          <div class="header">
+        <div>
+          <h1 class="title">Spider Grid</h1>
+        </div>
+        <div id="level-counter">
+          <span class="arrow left">
+            <span class="triangle"></span>
+          </span>
+          <span id="level-indicator">
+            <span id="labelLevel" class="translate">Level</span>
+            <span class="current">1</span>
+            <span id="labelOf" class="translate">of</span>
+            <span class="total">1</span>
+            <span class="caret">▾</span>
+          </span>
+          <span class="arrow right">
+            <span class="triangle"></span>
+          </span>
+          <div id="levelsWrapper" class="tooltip">
+            <div id="levels"></div>
+            <div id="labelReset" class="translate">Reset</div>
+          </div>
+        </div>
+      </div>
+      <div id="Instruction">
+        <p>Welcome to Spider Grid, where you write CSS code to catch your prey! Highlight only the areas that have insects by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will highlight the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.<img src="https://code.org/api/hour/begin_codepip_grid.png"></p>
+      </div>
+      <div id="editor">
+        <div id="css">
+          <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14</div>
+          <pre id="before">
+  #web {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+  } 
+
+#highlight {
+</pre>
+          <textarea id="code" autofocus autocapitalize="none" data-codes;=""></textarea>
+          <pre id="after">}</pre>
+        </div>
+        <button id="next" class="translate">Next</button>
+      </div>
+    </section>
+    <section id="playgroud">
+        <div id="board">
+            <div id="overlay">
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+                  <span class="plot"></span>
+         
+            </div>
+             <div id="soil">
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+          <span class="plot"></span>
+        
+        </div>
+        
+    </section>
+</body>
+</html>
